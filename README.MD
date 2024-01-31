@@ -4,7 +4,7 @@ A plataforma Alura nos proporcionou uma lista de desafios (não obriogatórios) 
 
 Então segue aqui a minha tentativa de resolução dos mesmos.
 
-**OBS.: Desculpe meu nivel em HTML... Estou aprendendo.**
+**OBS.: Caso optem por analisarem cada pasta de desafios. Me desculpe meu nivel em HTML... Estou aprendendo.**
 ***
 ### Desafio 1 : Cacular IMC
 1. Crie uma função que calcule o índice de massa corporal (IMC) de uma pessoa, a partir de sua altura, em metros, e peso, em quilogramas, que serão recebidos como parâmetro:
