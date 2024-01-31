@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1> </h1>
+        <h2>Vamos Calcular sei IMC</h2>
+    </header>
+    <main class="container">
+        <div class ="box"> <p>Seu peso: </p>
+            <input type="number" min="1" max="999" class="container_peso_input" id="peso">
+        </div>
+        <div class ="box"> <p> Sua altura: </p>
+            <input type="number" min="1" max="999" class="container_altura_input" id="altura">
+        </div>
+        <button onclick="calcularIMC()" class="button">Calcular IMC</button>
+        <div id="resultado" style ="visibility: hidden;" > <p1 class ="texto__paragrafo">  </p1> </div>
+    </main>
+
+      <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1> </h1>
+        <h2> </h2>
+    </header>
+    <main class="container">
+        <div> <label class="label">Qual a forma da sala?</label>
+             <select name="formato" id="formas">
+                <option value="circ">Circular</option>
+                <option value="ret">Retangular/Quadrada</option>
+            </select> </div>
+        
+        <div class ="box" style ="visibility: hidden;" id="bLargura"> <p>Largura:(m) </p>
+            <input type="number" min="1" max="999" class="container_largura_input" id="largura">
+        </div>
+
+        <div class ="box" style ="visibility: hidden;" id="bAltura"> <p>Altura:(m) </p>
+            <input type="number" min="1" max="999" class="container_altura_input" id="altura">
+        </div>
+
+        <div class ="box" style ="visibility: hidden;" id="bDiametro"> <p>Diametro:(m) </p>
+            <input type="number" min="1" max="999" class="container_largura_input" id="diametro">
+        </div>
+
+        <button onclick="resultadoArea()" class="button">Calcular Area</button>
+        <div id="resultado" style ="visibility: hidden;" > 
+            <div> <p1 class ="texto__paragrafo"> </p1> </div>
+            <div> <p2 class ="texto__paragrafo">  </p2> </div>
+        </div>
+    </main>
+
+      <script src="app.js"></script>
+</body>
+</html>

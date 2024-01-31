@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1> </h1>
+        <h2> </h2>
+    </header>
+    <main class="container">
+        <div class ="box"> <p>Valor em dolar: $</p>
+            <input type="number" min="1" max="9999999" class="container_dolar_input" id="dolar">
+        </div>
+        <div> <output type="number" min="0,01" max="999999" class="container_dolar_ouput" id="cotacao">
+            <p> <font size="5"> Cotação esta em: R$
+            <p1> </p1>
+            </font> </p> </output> </div>
+
+        <button onclick="resultadoConvercao()" class="button">Converter</button>
+
+        <div id="resultado" style ="visibility: hidden;" > <p1> <font size="5"> Valor convertido: R$ 
+        </font> <p1>
+        <p2 class ="texto__paragrafo"><font size="4">        </font> </p2> </div>
+    </main>
+
+      <script src="app.js"> </script>
+</body>
+</html>
